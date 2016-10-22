@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Django," />
 
 
 
@@ -84,12 +84,31 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="夏腾的个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="什么是virtualenv当我们需要在同一台设备上使用Python开发多个项目时，每个项目需要依赖的库都不相同，因此每个项目可能需要各自独立的Python运行环境。Virtualenv就是用来为各个项目创建独立的Python环境，使多个Python应用相互独立互不影响。
+virtualenv有如下几个功能：
+
+在没有权限的情况下安装新套件
+使得不同应用可以使用不同的套件版本
+某应用的套件升级不影响">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Django学习之virtualenv">
+<meta property="og:url" content="http://yoursite.com/2016/10/22/django-virtualenv/index.html">
 <meta property="og:site_name" content="夏腾的个人博客">
+<meta property="og:description" content="什么是virtualenv当我们需要在同一台设备上使用Python开发多个项目时，每个项目需要依赖的库都不相同，因此每个项目可能需要各自独立的Python运行环境。Virtualenv就是用来为各个项目创建独立的Python环境，使多个Python应用相互独立互不影响。
+virtualenv有如下几个功能：
+
+在没有权限的情况下安装新套件
+使得不同应用可以使用不同的套件版本
+某应用的套件升级不影响">
+<meta property="og:updated_time" content="2016-10-22T16:44:57.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="夏腾的个人博客">
+<meta name="twitter:title" content="Django学习之virtualenv">
+<meta name="twitter:description" content="什么是virtualenv当我们需要在同一台设备上使用Python开发多个项目时，每个项目需要依赖的库都不相同，因此每个项目可能需要各自独立的Python运行环境。Virtualenv就是用来为各个项目创建独立的Python环境，使多个Python应用相互独立互不影响。
+virtualenv有如下几个功能：
+
+在没有权限的情况下安装新套件
+使得不同应用可以使用不同的套件版本
+某应用的套件升级不影响">
 
 
 
@@ -110,10 +129,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/10/22/django-virtualenv/"/>
 
 
-  <title> 夏腾的个人博客 </title>
+  <title> Django学习之virtualenv | 夏腾的个人博客 </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -134,9 +153,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -215,9 +232,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -237,10 +254,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/10/22/django-virtualenv/" itemprop="url">
-                  Django学习之virtualenv
-                </a>
+                Django学习之virtualenv
               
             
           </h1>
@@ -280,9 +294,7 @@
       
 
       
-        
-          
-            <h2 id="什么是virtualenv"><a href="#什么是virtualenv" class="headerlink" title="什么是virtualenv"></a>什么是virtualenv</h2><p>当我们需要在同一台设备上使用Python开发多个项目时，每个项目需要依赖的库都不相同，因此每个项目可能需要各自独立的Python运行环境。Virtualenv就是用来为各个项目创建独立的Python环境，使多个Python应用相互独立互不影响。</p>
+        <h2 id="什么是virtualenv"><a href="#什么是virtualenv" class="headerlink" title="什么是virtualenv"></a>什么是virtualenv</h2><p>当我们需要在同一台设备上使用Python开发多个项目时，每个项目需要依赖的库都不相同，因此每个项目可能需要各自独立的Python运行环境。Virtualenv就是用来为各个项目创建独立的Python环境，使多个Python应用相互独立互不影响。</p>
 <p>virtualenv有如下几个功能：</p>
 <ul>
 <li>在没有权限的情况下安装新套件</li>
@@ -302,36 +314,45 @@
 <h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><p><a href="http://www.ziqiangxuetang.com/django/django-install.html" target="_blank" rel="external">自强学堂–Django基础教程</a></p>
 <p><a href="https://segmentfault.com/a/1190000004079979" target="_blank" rel="external">聊聊virtualenv和virtualenvwrapper实践</a></p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/Django/" rel="tag">#Django</a>
+          
+        </div>
       
 
       
+
       
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -339,6 +360,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -358,8 +383,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -402,6 +436,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是virtualenv"><span class="nav-number">1.</span> <span class="nav-text">什么是virtualenv</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装virtualenv"><span class="nav-number">2.</span> <span class="nav-text">安装virtualenv</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用virtualenv"><span class="nav-number">3.</span> <span class="nav-text">使用virtualenv</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考"><span class="nav-number">3.0.1.</span> <span class="nav-text">参考</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -505,6 +550,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 
