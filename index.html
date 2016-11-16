@@ -239,7 +239,7 @@
               
                 
                 <a class="post-title-link" href="/2016/11/16/auto_trans/" itemprop="url">
-                  自动转单工具
+                  未命名
                 </a>
               
             
@@ -252,7 +252,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-16T20:45:20+08:00" content="2016-11-16">
+            <time itemprop="dateCreated" datetime="2016-11-16T20:48:27+08:00" content="2016-11-16">
               2016-11-16
             </time>
           </span>
@@ -282,7 +282,9 @@
       
         
           
-            <h1 id="自动转单工具"><a href="#自动转单工具" class="headerlink" title="自动转单工具"></a>自动转单工具</h1><h2 id="项目需求"><a href="#项目需求" class="headerlink" title="项目需求"></a>项目需求</h2><p>公司越来越多的产品逐渐开拓海外市场，我也加了一个海外运营的项目。因为合作方使用的是另外一套bug管理系统（JIRA），作为QA我需要同步两个系统的bug信息，不断重复的“复制–粘贴”操作让我疲于应付，完全没有精力开展其他更有意义的工作。因此，我决定写一个自动转单的工具，能够自动检测JIRA上的bug单，并转单到公司内部的bug管理系统（Redmine）。</p>
+            <hr>
+<p>title: 自动转单工具<br>date: 2016-10-22 02:13:14</p>
+<h2 id="tags-G4"><a href="#tags-G4" class="headerlink" title="tags: G4"></a>tags: G4</h2><h1 id="自动转单工具"><a href="#自动转单工具" class="headerlink" title="自动转单工具"></a>自动转单工具</h1><h2 id="项目需求"><a href="#项目需求" class="headerlink" title="项目需求"></a>项目需求</h2><p>公司越来越多的产品逐渐开拓海外市场，我也加了一个海外运营的项目。因为合作方使用的是另外一套bug管理系统（JIRA），作为QA我需要同步两个系统的bug信息，不断重复的“复制–粘贴”操作让我疲于应付，完全没有精力开展其他更有意义的工作。因此，我决定写一个自动转单的工具，能够自动检测JIRA上的bug单，并转单到公司内部的bug管理系统（Redmine）。</p>
 <h2 id="实现框架"><a href="#实现框架" class="headerlink" title="实现框架"></a>实现框架</h2><p>我将工具的实现主要分成3个层次，最底层的是logger.py和config，分别负责记录运行日志和方便用户配置。中层的4个模块（recv_mail.py、html_parser.py、buglist.py、robot.py）是工具的主体，实现了工具的基本功能，并为上层提供调用接口。上层的main.py模块用于实现实际的处理逻辑，即遇到各种情况要如何操作。这样的设计较好地剥离了各个模块的相关性，易于实现优化和调整，同时具有较好的扩展性。</p>
 <p><img src="file:///E:/Tools/AutoTrans/frame.png" alt="frame"> </p>
 <h2 id="接口说明"><a href="#接口说明" class="headerlink" title="接口说明"></a>接口说明</h2><p>首先介绍底层的两个模块：</p>
@@ -440,8 +442,7 @@
       
         
           
-            <p>#Virtualenv</p>
-<h2 id="什么是virtualenv"><a href="#什么是virtualenv" class="headerlink" title="什么是virtualenv"></a>什么是virtualenv</h2><p>当我们需要在同一台设备上使用Python开发多个项目时，每个项目需要依赖的库都不相同，因此每个项目可能需要各自独立的Python运行环境。Virtualenv就是用来为各个项目创建独立的Python环境，使多个Python应用相互独立互不影响。</p>
+            <h2 id="什么是virtualenv"><a href="#什么是virtualenv" class="headerlink" title="什么是virtualenv"></a>什么是virtualenv</h2><p>当我们需要在同一台设备上使用Python开发多个项目时，每个项目需要依赖的库都不相同，因此每个项目可能需要各自独立的Python运行环境。Virtualenv就是用来为各个项目创建独立的Python环境，使多个Python应用相互独立互不影响。</p>
 <p>virtualenv有如下几个功能：</p>
 <ul>
 <li>在没有权限的情况下安装新套件</li>
@@ -539,7 +540,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
